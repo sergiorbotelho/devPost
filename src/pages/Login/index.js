@@ -91,7 +91,7 @@ export default function Login() {
       />
       <Input
         placeholder="******"
-        placeholderTextColor="#999"
+        placeholderTextColor="#999" 
         value={password}
         onChangeText={(text) => setPassword(text)}
         secureTextEntry={true}

@@ -161,7 +161,7 @@ export default function Profile() {
           </ButtonBack>
           <Input
             placeholder={user?.nome}
-            placeholderTextColor="#999"
+            placeholderTextColor="#999" 
             onChangeText={(text) => setNome(text)}
           />
           <Button bg="#428cfd" onPress={updateProfile}>
