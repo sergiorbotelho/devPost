@@ -47,11 +47,13 @@ export default function Login() {
         </TitleAnimated>
         <Input
           placeholder="seuemail@dominio.com"
+          placeholderTextColor="#999"
           value={email}
           onChangeText={(text) => setEmail(text)}
         />
         <Input
           placeholder="******"
+          placeholderTextColor="#999"
           value={password}
           onChangeText={(text) => setPassword(text)}
           secureTextEntry={true}
@@ -77,16 +79,19 @@ export default function Login() {
       </TitleAnimated>
       <Input
         placeholder="Seu nome"
+        placeholderTextColor="#999"
         value={name}
         onChangeText={(text) => setName(text)}
       />
       <Input
         placeholder="seuemail@dominio.com"
+        placeholderTextColor="#999"
         value={email}
         onChangeText={(text) => setEmail(text)}
       />
       <Input
         placeholder="******"
+        placeholderTextColor="#999"
         value={password}
         onChangeText={(text) => setPassword(text)}
         secureTextEntry={true}
